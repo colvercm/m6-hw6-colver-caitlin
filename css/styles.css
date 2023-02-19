@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: url('../assets/white-waves.png');
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    border-bottom: 2px solid rgb(132, 165, 157);
+}
+
+header, footer {
+    background-color: rgb(246, 189, 96);
+}
+
+h1 {
+    background-color: rgb(242, 132, 130);
+    font-size: 22px;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 10px;
+}
+
+.link {
+    border-right: 1px solid rgb(132, 165, 157);
+    padding: 2px 8px;
+    margin: 0;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+}
+
+.link:last-child {
+    border-right: none;
+}
+
+.link:active {
+    color: aliceblue;
+}
+
+.container2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+main {
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: rgb(245, 202, 195);
+    max-width: 450px;
+    padding: 12px;
+    margin-right: 24px;
+}
+
+.about {
+    font-size: 28px;
+    font-family: monospace;
+    margin-bottom: 12px;
+    border-bottom: 2px solid rgb(132, 165, 157);
+}
+
+.profile-image { 
+    float: left;
+    box-shadow: 8px 8px 10px 0 rgb(83, 82, 82);
+    border-radius: 3px;
+    margin: 0 20px 5px 0;
+}
+
+p {
+    margin: 0 10px 20px 10px;
+    line-height: 150%;
+}
+
+aside {
+    background-color: rgb(245, 202, 195);
+    padding: 2px;
+    width: 200px;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside img {
+    box-shadow: 4px 4px 3px 0 rgb(128, 126, 126);
+    border-radius: 5px;
+    margin: 4px 10px 4px 12px;
+}
+
+.connect {
+    text-align: center;
+    font-family: monospace;
+    font-size: 18px;
+    padding: 4px;
+    margin: 14px;
+    border-bottom: 2px solid rgb(132, 165, 157);
+}
+
+footer {
+    padding: 16px;
+    margin-top: 24px;
+    font-size: 10px;
+    text-align: center;
+    border-top: 2px solid rgb(132, 165, 157);
+}
